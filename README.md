@@ -35,6 +35,7 @@ git commit – выполнить коммит<br>
 
 clip < ~/.ssh/id_ed25519.pub – скопировать содержимое файла с ключом в буфер<br>
 git log – история коммитов<br>
+&emsp; --oneline - сокращенный лог
 git config --global user.email username@yandex.ru # здесь нужно указать свой настоящий email<br>
 ssh-keygen -t ed25519 -C "электронная почта, к которой привязан ваш аккаунт на GitHub" – создать ключ<br>
 git remote add – привязать удаленный репозиторий к локальному<br>
@@ -42,4 +43,4 @@ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git
 &emsp; Где origin – имя удаленного репозитория<br>
 
 git remote –v – убедиться, что репозитории связаны<br>
-git push -u origin main – первый пуш. Где origin имя удаленного репозитория, а main – название текущей ветки. -u связывает удаленную ветку и локальную<br>
+git push -u origin main – первый пуш. Где origin имя удаленного репозитория, а main (master) – название текущей ветки. -u связывает удаленную ветку и локальную<br>
