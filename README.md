@@ -44,3 +44,14 @@ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git
 
 git remote –v – убедиться, что репозитории связаны<br>
 git push -u origin main – первый пуш. Где origin имя удаленного репозитория, а main (master) – название текущей ветки. -u связывает удаленную ветку и локальную<br>
+
+Пример mermaid-схемы:<br>
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
