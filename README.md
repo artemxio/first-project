@@ -107,6 +107,8 @@ git status --ignored - отобразить игнорируемые файлы<
 
 Пример mermaid-схемы:<br>
 
+test
+
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
