@@ -48,7 +48,9 @@ git push -u origin main – первый пуш. Где origin имя удале
 
 git commit --amend --no-edit  - обновить/исправить последний коммит (внести изменения без добавления нового коммита)<br>
 git commit --amend -m - изменить сообщение коммита<br>
-git restore --staged <file> - выполнить unstage изменений
+git restore --staged <file> - выполнить unstage изменений (до коммита)<br>
+git reset --hard <commit hash> - откат к указанному коммиту<br>
+git restore <file> - откатить изменения, которые не попали ни в staging, ни в коммит (если случайно отредактирован файл и теперь попал в modified)
 
 
 Пример mermaid-схемы:<br>
